@@ -18,8 +18,10 @@ class PortfolioController extends Controller
 
     public function skills()
     {
-        $skills = Skill::all();
-        return view('skills', compact('skills'));
+    $hardSkills = Skill::where('type', 'hard')->get();
+    $softSkills = Skill::where('type', 'soft')->get();
+
+    return view('skills', compact('hardSkills', 'softSkills'));
     }
 
     public function projects()

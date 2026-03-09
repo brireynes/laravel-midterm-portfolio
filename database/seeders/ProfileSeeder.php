@@ -2,21 +2,23 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Profile;
 
 class ProfileSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
-    public function run()
+    public function run(): void
     {
         Profile::create([
-            'name' => 'Brian Reynes',
+            'name' => 'Brian David L. Reynes',
             'title' => 'Computer Science Student',
-            'bio' => 'Aspiring software developer and game programmer.'
+            'bio' => 'I am a Computer Science student passionate about software development and game programming.',
+            'image' => 'brian.jpg',
+
+            'facebook' => 'https://www.facebook.com/yaboifufu/',
+            'instagram' => 'https://www.instagram.com/_davidreynes/',
+            'github' => 'https://github.com/brireynes',
+            'linkedin' => 'https://linkedin.com'
         ]);
     }
 }

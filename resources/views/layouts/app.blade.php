@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<style>
+
+    .social-icons a {
+        transition: 0.2s;
+    }
+
+    .social-icons a:hover {
+        transform: scale(1.2);
+    }
+
+    .bi-facebook:hover { color:#1877F2; }
+    .bi-instagram:hover { color:#E4405F; }
+    .bi-github:hover { color:#000; }
+    .bi-linkedin:hover { color:#0A66C2; }
+
+</style>
 </head>
 <body class="bg-light">
 
